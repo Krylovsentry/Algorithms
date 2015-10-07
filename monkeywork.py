@@ -30,7 +30,7 @@ def generator(alphabet):
     gen_string = "".join(random_list)
     return gen_string
 
-high_point = [x for x in generator(alphabet)] # Try to do Hill Climbing Algorithm
+high_point = [x for x in generator(alphabet)] 
 
 
 # The second function should compare strings that we generate with string from Shakespeare
