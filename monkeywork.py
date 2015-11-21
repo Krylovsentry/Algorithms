@@ -10,7 +10,6 @@ shakespeare = "methinks it is like a wease"
     First functions would be generate a random string from 26 symbols and space
 
 """
-#For easiest way, i decide to write my list by those path
 split_alphabet = "a b c d e f g h i j k l m n o p q r s t u v x w y z"
 alphabet = split_alphabet.split(' ')
 alphabet.append(' ')
@@ -30,7 +29,7 @@ def generator(alphabet):
     gen_string = "".join(random_list)
     return gen_string
 
-high_point = [x for x in generator(alphabet)] # Try to do Hill Climbing Algorithm
+high_point = [x for x in generator(alphabet)]
 
 
 # The second function should compare strings that we generate with string from Shakespeare
