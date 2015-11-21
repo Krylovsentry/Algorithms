@@ -25,4 +25,4 @@ def fibonacci(n):
 
     return number[n]
 
-print(fibonacci(123))
+print(fibonacci(2222))
