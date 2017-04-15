@@ -1,3 +1,4 @@
+# O(n ** 2)
 def bubble_sort(slist, asc=True):
     need_exchanges = False
     for iteration in range(len(slist))[:: -1]:
